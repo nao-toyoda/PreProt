@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>GMO会員情報取得</title>
+
+  <!-- ■■■■ REACTパート ■■■■■ -->
+  <!-- react, react-dom, babelをCDNから読み込むよ -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react-dom.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.10.3/babel.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!--  REACT実行ファイル -->
+  <script type="text/babel" src="/js/GmoMember.js"></script>
+
+  <!--  スタイルシート -->
+  <link href="/css/GmoMember.css" rel="stylesheet"></link>
+
+</head>
+<body>
+  <!-- ■■■■ HTMLパート ■■■■■ -->
+  <h1>GMO会員情報取得</h1>
+
+  <div id="request_part">
+    <p id="id_input">GMO会員ID：<input type="text" id="gmo_id" /></p>
+    <input type="button" value="検索" onclick="getGmoMemberInfo();" />
+  </div>
+
+  <div id="member_info"></div>
+
+  <div id="error_part">
+      <div class="err" id="out1"></div>
+      <div class="err" id="out2"></div>
+      <div class="err" id="out3"></div>
+  </div>
+
+</body>
+</html>
