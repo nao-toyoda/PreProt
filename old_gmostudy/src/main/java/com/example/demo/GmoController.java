@@ -1,9 +1,5 @@
 package com.example.demo;
 
-import java.text.MessageFormat;
-import java.util.Iterator;
-import java.util.List;
-
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,12 +8,6 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.gmo_pg.g_pay.client.common.PaymentException;
-import com.gmo_pg.g_pay.client.impl.PaymentClientImpl;
-import com.gmo_pg.g_pay.client.input.SearchMemberInput;
-import com.gmo_pg.g_pay.client.output.ErrHolder;
-import com.gmo_pg.g_pay.client.output.SearchMemberOutput;
-import com.gmo_pg.g_pay.client.output.SearchMemberOutput.MemberInfo;
 
 @Controller
 @EnableAutoConfiguration
@@ -56,6 +46,7 @@ public class GmoController {
 
 		String retVal = "";
 
+		/*
 		PaymentClientImpl client = new PaymentClientImpl();
 		SearchMemberInput input = new SearchMemberInput();
 		SearchMemberOutput output = null;
@@ -102,7 +93,7 @@ public class GmoController {
 				break;
 			}
 		}
-
+		*/
 
 		ObjectMapper mapper = new ObjectMapper();
 		try {
