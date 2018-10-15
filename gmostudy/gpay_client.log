@@ -1,0 +1,5 @@
+2018/10/10 18:56:13 Http11NioProtocol [INFO]: Pausing ProtocolHandler ["http-nio-8080"]
+2018/10/10 18:56:14 StandardService [INFO]: Stopping service [Tomcat]
+2018/10/10 18:56:14 [/] [INFO]: Destroying Spring FrameworkServlet 'dispatcherServlet'
+2018/10/10 18:56:14 Http11NioProtocol [INFO]: Stopping ProtocolHandler ["http-nio-8080"]
+2018/10/10 18:56:14 Http11NioProtocol [INFO]: Destroying ProtocolHandler ["http-nio-8080"]
