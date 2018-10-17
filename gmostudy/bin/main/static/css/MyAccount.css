@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+#request_part{
+    padding-left:30px;
+}
+#member_info{
+    padding-left:30px;
+    padding-top:10px;
+    font-size:large;
+    font-weight:bold;
+}
+#error_part{
+	padding-left:30px;
+}
+.err{
+	color:red;
+}
